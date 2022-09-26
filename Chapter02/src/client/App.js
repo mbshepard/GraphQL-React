@@ -7,7 +7,7 @@ const initialPosts = [
         id: 2,
         text: 'Lorem ipsum',
         user: {
-            avatar: '/avatar1.png',
+            avatar: '../../public/avatar1.png',
             username: 'Test User'
         }
     },
@@ -15,7 +15,7 @@ const initialPosts = [
         id: 1,
         text: 'Lorem ipsum',
         user: {
-            avatar: '/avatar2.png',
+            avatar: '../../public/avatar2.png',
             username: 'Test User 2'
         }
     }
@@ -32,7 +32,7 @@ const App = () => {
             id: posts.length + 1,
             text: postContent,
             user: {
-                avatar: '/avatar1.png',
+                avatar: '../../public/avatar1.png',
                 username: 'Fake User'
             }
         };
