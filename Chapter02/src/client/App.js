@@ -4,6 +4,14 @@ import '../../assets/css/style.css';
 
 const initialPosts = [
     {
+        id: 3,
+        text: 'Lorem ipsum',
+        user: {
+            avatar: '../../public/avatar1.png',
+            username: 'Test User'
+        }
+    },
+    {
         id: 2,
         text: 'Lorem ipsum',
         user: {
