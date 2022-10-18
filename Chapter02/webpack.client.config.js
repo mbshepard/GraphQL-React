@@ -60,8 +60,6 @@ module.exports = {
   },
 
   devServer: {
-    allowedHosts: ['ec2-44-204-13-72.compute-1.amazonaws.com'],
-
     port: 3000,
 
     open: true

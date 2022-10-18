@@ -6,7 +6,7 @@ module.exports = {
 
     return queryInterface.bulkInsert('Users', [{
 
-      avatar: '/uploads/avatar1.png',
+      avatar: '../uploads/avatar1.png',
 
       username: 'TestUser',
 
@@ -18,7 +18,7 @@ module.exports = {
 
     {
 
-      avatar: '/uploads/avatar2.png',
+      avatar: '../uploads/avatar2.png',
 
       username: 'TestUser2',
 
