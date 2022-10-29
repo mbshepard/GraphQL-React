@@ -1,3 +1,4 @@
+require("dotenv").config()
 import express from 'express';
 import path from 'path';
 import helmet from 'helmet';
@@ -47,4 +48,4 @@ for (let i = 0; i < serviceNames.length; i += 1) {
     app.use(`/${name}`, services[name]);
   }
 }
-app.listen(8000, () => console.log('Listening on port 8000!'));
+app.listen(8000, () => console.log("Listening on Port 8000!"));
